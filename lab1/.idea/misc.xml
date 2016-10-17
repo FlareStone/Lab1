@@ -5,7 +5,7 @@
       <property name="hideActionText" class="java.lang.Boolean" />
     </properties>
     <properties class="javax.swing.JComponent">
-      <property name="html.disable" class="java.lang.Boolean" />
+      <property name="html.disable" cla C4-1 ss="java.lang.Boolean" />
     </properties>
     <properties class="javax.swing.JEditorPane">
       <property name="JEditorPane.w3cLengthUnits" class="java.lang.Boolean" />
