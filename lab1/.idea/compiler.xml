@@ -6,7 +6,7 @@
     <wildcardResourcePatterns>
       <entry name="!?*.ja change 1 va" />
       <entry name="!?*.form" />
-      <entry name="!?*.class" />
+      <entry name=" B2-1 !?*.class" />
       <entry name="!?*.groovy" />
       <entry name="!?*.scala" />
       <entry name="!?*.flex" />
