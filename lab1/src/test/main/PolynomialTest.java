@@ -64,6 +64,14 @@ public void testExpression() throws Exception {
 */ 
 @Test
 public void testSimplify() throws Exception {
+    try {
+        Method method = polynomial.getClass().getDeclaredMethod("simplify", String.class);
+        method.setAccessible(true);
+        Object result = method.invoke(polynomial, "!simplifya=1a=1b=2");
+        Assert.assertEquals(null,result);
+    }catch (Exception e) {
+        e.printStackTrace();
+    }
 } 
 
 /** 
