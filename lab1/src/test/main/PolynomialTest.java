@@ -81,6 +81,14 @@ public void testSimplify() throws Exception {
 */ 
 @Test
 public void testDerivative() throws Exception {
+    try {
+        Method method = polynomial.getClass().getDeclaredMethod("derivative", String.class);
+        method.setAccessible(true);
+        Object result = method.invoke(polynomial, "!d/db");
+        Assert.assertEquals(null,result);
+    }catch (Exception e) {
+        e.printStackTrace();
+    }
 } 
 
 
