@@ -45,7 +45,7 @@
       <file leaf-file-name="Polynomial.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Polynomial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1224">
+            <state relative-caret-position="4920">
               <caret line="209" column="52" selection-start-line="209" selection-start-column="52" selection-end-line="209" selection-end-column="52" />
               <folding />
             </state>
@@ -55,8 +55,8 @@
       <file leaf-file-name="PolynomialTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/main/PolynomialTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1392">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="93">
+              <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,6 +148,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,12 +199,14 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -744,6 +748,8 @@
       <workItem from="1478524948823" duration="3306000" />
       <workItem from="1478583863807" duration="11034000" />
       <workItem from="1478609198437" duration="94000" />
+      <workItem from="1478609603911" duration="51000" />
+      <workItem from="1478609704564" duration="142000" />
     </task>
     <servers />
   </component>
@@ -780,7 +786,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136027000" />
+    <option name="totallyTimeSpent" value="136220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1171,7 +1177,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Polynomial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224">
+        <state relative-caret-position="4920">
           <caret line="209" column="52" selection-start-line="209" selection-start-column="52" selection-end-line="209" selection-end-column="52" />
           <folding />
         </state>
@@ -1179,8 +1185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/main/PolynomialTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="93">
+          <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
