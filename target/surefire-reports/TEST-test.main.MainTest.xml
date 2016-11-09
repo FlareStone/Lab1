@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="test.main.MainTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="test.main.MainTest" time="0.006" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2016.2.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -11,7 +11,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7533"/>
+    <property name="idea.launcher.port" value="7535"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -22,7 +22,7 @@
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="visualvm.id" value="113554831341421"/>
+    <property name="visualvm.id" value="113788156852851"/>
     <property name="java.io.tmpdir" value="C:\Users\54333\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
