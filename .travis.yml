@@ -1,3 +1,3 @@
 language: java
-xcode_project: lab1/src/main
-xcode_scheme: lab1/src/test/main
+script:
+  - mvn test
