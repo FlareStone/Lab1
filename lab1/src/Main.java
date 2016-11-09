@@ -1,4 +1,4 @@
-import java.io.*;
+﻿import java.io.*;
 import java.math.BigDecimal;
 import java.util.regex.*;
 
@@ -321,8 +321,9 @@ class Polynomial{
             key = m.group(0);
         for(int i = 0; i < aryOfItem.length; i++)
             makeTable(aryOfItem[i], key, list);
-        System.out.println(getNewEquation(key, list, aryOfItem.length));
-        return true;
+	String result = getNewEquation(key, list, aryOfItem.length);
+        System.out.println(result);
+        return result;
     }
 
     /**
@@ -390,7 +391,8 @@ class Polynomial{
             if(list[i].exp > 0)
                 list[i].exp--;
         }
-        System.out.println(getNewEquation(var, list, numberOfItem));
-        return true;
+	String result = getNewEquation(var, list, numberOfItem);
+	System.out.println(result);
+        return result;
     }
 }
