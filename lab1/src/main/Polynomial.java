@@ -1,4 +1,4 @@
-﻿package main;
+package main;
 
 import java.math.BigDecimal;
 import java.util.regex.Matcher;
@@ -234,9 +234,8 @@ public class Polynomial {
             key = m.group(0);
         for (int i = 0; i < aryOfItem.length; i++)
             makeTable(aryOfItem[i], key, list);
-	String result = getNewEquation(key, list, aryOfItem.length);
-        System.out.println(result);
-        return result;
+        System.out.println(getNewEquation(key, list, aryOfItem.length));
+        return getNewEquation(key, list, aryOfItem.length);
     }
 
     /**

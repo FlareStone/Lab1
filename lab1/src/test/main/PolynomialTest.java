@@ -67,8 +67,8 @@ public void testSimplify() throws Exception {
     try {
         Method method = polynomial.getClass().getDeclaredMethod("simplify", String.class);
         method.setAccessible(true);
-        Object result = method.invoke(polynomial, "!simplifya=1a=1b=2");
-        Assert.assertEquals(null,result);
+        Object result = method.invoke(polynomial, "!simplifya=1");
+        Assert.assertEquals("1",result);
     }catch (Exception e) {
         e.printStackTrace();
     }
